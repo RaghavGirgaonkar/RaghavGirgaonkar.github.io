@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.contact-links {
+    margin-top: 0.5rem;
+}
+
+.contact-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-links a:hover {
+    color: #ddd;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.profile-photo {
+    width: 350px;
+    height: 250px;
+    /* border-radius: 50%; */
+    display: block;
+    margin: 1rem auto;
+}
+
+.research-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.research-images img {
+    max-width: 45%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
